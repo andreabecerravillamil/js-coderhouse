@@ -2,11 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Read Editores es una editorial que busca llegar a todos los lectores con nuestra gran variedad de libros y generos literarios.">
+    <meta name="keywords" content="libros, autores, novedades, editorial, feria, catalogo">
+    <link rel="icon" href="./img/favicon.png" type="png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Read Editores - Inicio</title>
 </head>
 <body>
-    <h1>Simulador interactivo</h1>
+
+    <header>
+
+        <div>
+            <a href="index.html" class="img-logo"><img src="./img/logo-libro.png" alt="Logo Editorial" class="logo"></a>
+        </div>
+        
+        <form>
+            <input type="search" name="buscador" id="buscadorTexto" placeholder="Buscador">
+            <img src="./img/lupa.png" alt="lupa" class="lupa">
+        </form>
+
+    </header>
+
+    <main>
+        <section id="catalogo">
+
+            <div id="mensajeBusqueda" class="novisible">
+                <h1>El libro ingresado no se encuentra en stock.</h1>
+            </div>
+
+        </section>
+
+        <section class="compra">
+
+            <div id="carrito"></div>
+            <div id="compra-datos">
+                <div id="continuar" class="novisible">
+                    <button>Continuar</button>
+                </div>
+                <div id="envio-datos">
+                    <div id="envio" class="novisible">
+                        <input type="radio" id="tienda" name="tipo-envio">
+                        <label for="tienda">Retiro en tienda</label>
+                        <input type="radio" id="delivery" name="tipo-envio">
+                        <label for="delivery">Envio a domicilio</label>
+                    </div>
+                    <div id="espacio"><input type="text" id="codigo" placeholder="Provincia" class="novisible"  class="envio-codigo"></div>
+                    <div id="precioFinal" class="novisible"></div>
+                    <div id="espacio"><button id="finalizar-compra" class="novisible">Confirmar</button></div>
+                </div>
+                <div>
+                    <button id="datosCompra" class="novisible">Finalizar Compra</button>
+                </div>
+                <div id="contenedorDatosCompra" class="novisible">
+                    <div class="img-cerrar"><img src="./img/cerrar.png" alt="cerrar" id="cerrar" class="novisible"></div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    
+    <footer>
+                <div>
+                    <p>
+                        Todos los derechos reservados. 2023.
+                    </p>
+                </div>
+
+                <div class="redes">
+                    <p><a href="https://instagram.com/" target="_blank">Instagram</a></p>
+                    <p><a href="https://twitter.com/home" target="_blank">Twitter</a></p>
+                    <p><a href="https://facebook.com/" target="_blank">Facebook</a></p>
+                </div>
+
+                <div>
+                    <p>
+                        Buenos Aires. Argentina.
+                    </p> 
+                </div>
+        
+    </footer>
     <script src="./main.js"></script>
 </body>
 </html>

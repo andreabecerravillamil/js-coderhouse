@@ -1,0 +1,122 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin: 0;
+}
+
+header {
+    height: 5rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo  { 
+    width: 70px;
+    height: 70px;
+}
+
+.lupa {
+    width: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    margin-top: 7rem;
+}
+
+#catalogo {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.caja-libro {
+    width: 15rem;
+    margin: 3rem;
+}
+
+.compra {
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#compra-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+#envio-datos {
+    padding-top: 1rem;
+    display: flex;
+   align-items: flex-end;
+    flex-direction: column;
+}
+
+#espacio{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+button {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+input#buscadorTexto {
+    width: 30rem;
+    height: 2rem;
+}
+
+.novisible {
+    display:none;
+}
+
+.visible {
+    display: inherit;
+}
+
+.redes {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+#cerrar {
+    width: 30px;
+    height: 30px;
+    padding-right: 2rem;
+
+}
+
+.img-catalogo {
+    width: 15rem;
+    height: auto;
+}
+
