@@ -1,0 +1,99 @@
+[
+        {
+            "id": 1,
+            "img": "./img/libro1.jpg",
+            "titulo": "Escuela de mujeres",
+            "autor": "Inma López Silva",
+            "precio": 5000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 2,
+            "img": "./img/libro2.jpg",
+            "titulo": "Madera de cerezo",
+            "autor": "Marica Bodrožić",
+            "precio": 8000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 3,
+            "img": "./img/libro3.jpg",
+            "titulo": "QED, las cosas como son",
+            "autor": "Gertrude Stein",
+            "precio": 6000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 4,
+            "img": "./img/libro4.jpg",
+            "titulo": "Pombero",
+            "autor": "Marina Closs",
+            "precio": 7000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 5,
+            "img": "./img/libro5.jpg",
+            "titulo": "Estado del malestar",  
+            "autor": "Nina Lykke",
+            "precio": 4000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 6,
+            "img": "./img/libro6.jpg",
+            "titulo": "Cartas a Emma Bowlcut",
+            "autor": "Bill Callahan",
+            "precio": 1000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 7,
+            "img": "./img/libro7.jpg",
+            "titulo": "Los años",
+            "autor": "Annie Ernaux",
+            "precio": 3000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 8,
+            "img": "./img/libro8.jpg",
+            "titulo": "Una dama perdida",
+            "autor": "Willa Cather",
+            "precio": 9000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 9,
+            "img": "./img/libro9.jpg",
+            "titulo": "Las cosas que digo son ciertas",
+            "autor": "Blanca Varela",
+            "precio": 4500,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 10,
+            "img": "./img/libro10.jpg",
+            "titulo": "Van Gogh el suicidado por la sociedad",
+            "autor": "Antonin Artaud",
+            "precio": 4000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 11,
+            "img": "./img/libro11.jpg",
+            "titulo": "El niño que cargaba agua en el colador",
+            "autor": "Manoel de Barros",
+            "precio": 9000,
+            "cantidadCompra": 0
+        },
+        {
+            "id": 12,
+            "img": "./img/libro12.jpg",
+            "titulo": "La vida secreta de las plantas",
+            "autor": "Christopher Bird",
+            "precio": 7500,
+            "cantidadCompra": 0
+        }
+        
+]

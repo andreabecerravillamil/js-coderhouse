@@ -16,10 +16,6 @@ header {
     height: 70px;
 }
 
-.lupa {
-    width: 20px;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -48,11 +44,23 @@ footer {
     margin: 3rem;
 }
 
-.compra {
-    
-    width: 40%;
+.caja-libro-carrito {
+    margin:2rem 1rem 0 1rem;
+    padding-left: 1rem;
+}
+
+.popup {
+    width: 30%;
     display: flex;
     flex-direction: column;
+    z-index: 1001;
+    position: absolute;
+    background-color: white;
+    padding-right: 2rem;
+    border: solid 0.3rem black;
+    border-radius: 0.3rem;
+    top: 1;
+    right: 2rem;
 }
 
 #compra-datos {
@@ -60,13 +68,22 @@ footer {
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
+    padding-bottom: 2rem;
 }
 
 #envio-datos {
-    padding-top: 1rem;
+    padding: 1rem 0 0 2rem;
     display: flex;
-   align-items: flex-end;
+    align-items: flex-end;
     flex-direction: column;
+}
+
+.tienda {
+    padding: 0 1rem 0 1rem;
+}
+
+.delivery {
+    padding-left: 1rem;
 }
 
 #espacio{
@@ -74,6 +91,14 @@ footer {
     margin-bottom: 0.5rem;
 }
 
+#carrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.cerrar-btn{
+    padding: 2rem 0 0 2rem;
+}
 
 button {
     background-color: white;
@@ -92,12 +117,21 @@ input#buscadorTexto {
     height: 2rem;
 }
 
+.carrito-img {
+    width: 2rem;
+}
+
 .novisible {
     display:none;
 }
 
 .visible {
     display: inherit;
+}
+
+.popup-close {
+    display: none;
+    position: unset;
 }
 
 .redes {
@@ -108,15 +142,16 @@ a {
     color: white;
 }
 
-#cerrar {
-    width: 30px;
-    height: 30px;
-    padding-right: 2rem;
-
-}
-
 .img-catalogo {
     width: 15rem;
     height: auto;
 }
 
+.btn-ok-sweetalert {
+    background-color: black!important;
+    box-shadow: none!important;
+}
+
+.close-sweetalert:hover {
+    color: grey;
+}

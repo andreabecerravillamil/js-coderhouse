@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <title>Read Editores - Inicio</title>
 </head>
@@ -22,8 +24,9 @@
         </div>
         
         <form>
-            <input type="search" name="buscador" id="buscadorTexto" placeholder="Buscador">
-            <img src="./img/lupa.png" alt="lupa" class="lupa">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="search" name="buscador" id="buscadorTexto" placeholder="Buscar">
+            <i id="btn-carrito" class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
         </form>
 
     </header>
@@ -37,8 +40,8 @@
 
         </section>
 
-        <section class="compra">
-
+        <section id="compra" class="popup-close">
+            <div id="cerrar-btn" class="novisible"><i class="fa-solid fa-xmark" style="color: #000000;"></i></div>
             <div id="carrito"></div>
             <div id="compra-datos">
                 <div id="continuar" class="novisible">
@@ -47,9 +50,9 @@
                 <div id="envio-datos">
                     <div id="envio" class="novisible">
                         <input type="radio" id="tienda" name="tipo-envio">
-                        <label for="tienda">Retiro en tienda</label>
+                        <label for="tienda" class="tienda">Retiro en tienda</label>
                         <input type="radio" id="delivery" name="tipo-envio">
-                        <label for="delivery">Envio a domicilio</label>
+                        <label for="delivery" class="delivery">Envio a domicilio</label>
                     </div>
                     <div id="espacio"><input type="text" id="codigo" placeholder="Provincia" class="novisible"  class="envio-codigo"></div>
                     <div id="precioFinal" class="novisible"></div>
@@ -57,9 +60,6 @@
                 </div>
                 <div>
                     <button id="datosCompra" class="novisible">Finalizar Compra</button>
-                </div>
-                <div id="contenedorDatosCompra" class="novisible">
-                    <div class="img-cerrar"><img src="./img/cerrar.png" alt="cerrar" id="cerrar" class="novisible"></div>
                 </div>
             </div>
             
@@ -87,6 +87,8 @@
                 </div>
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./main.js"></script>
+    
 </body>
 </html>
